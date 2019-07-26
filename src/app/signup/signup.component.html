@@ -1,0 +1,40 @@
+<div class="image">
+  <div>
+    <h1>Larny Stores</h1>
+  </div>
+  <div class="icon">
+    <i class="material-icons">all_inclusive</i>
+  </div>
+
+  <div class="wrap">
+    <div class="inputs animated fadeInUp">
+      <mat-card>
+        <form class="example-form">
+          <mat-form-field class="example-full-width">
+            <input matInput placeholder="First Name" type="text" [(ngModel)]="firstName" name="firstName">
+          </mat-form-field>
+
+          <mat-form-field class="example-full-width">
+            <input matInput placeholder="Last Name" type="text" [(ngModel)]="lastName" name="lastName">
+          </mat-form-field>
+
+          <mat-form-field class="example-full-width">
+            <input matInput placeholder="Address" type="text" [(ngModel)]="address" name="address">
+          </mat-form-field>
+
+          <mat-form-field class="example-full-width">
+            <input matInput placeholder="Email" type="text" [(ngModel)]="email" name="lastName">
+          </mat-form-field>
+          
+          <mat-form-field class="example-full-width">
+            <input matInput placeholder="Password" type="password" [(ngModel)]="password" name="password">
+          </mat-form-field>
+        </form>
+        <div class="buttons">
+          <button class="ro" mat-raised-button [routerLink]="['/login']" routerLinkActive="router-link-active">SIGN IN</button>
+          <button mat-raised-button class="so" (click)="signUp()">SIGN UP</button>
+        </div>
+      </mat-card>
+    </div>
+  </div>
+</div>

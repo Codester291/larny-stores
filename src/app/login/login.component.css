@@ -1,0 +1,58 @@
+.image {
+  height: 100vh;
+  background-size: cover;
+  width: auto;
+  background-image: url("http://getwallpapers.com/wallpaper/full/8/f/0/74385.jpg");
+  background-position: 50% 50%;
+  overflow: hidden;
+  font-family: "Roboto";
+  padding: 5em 0em;
+}
+h1 {
+  text-align: center;
+  color: #f1f1f1;
+  font-family: 'Roboto Mono';
+}
+.material-icons {
+  font-size: 50px;
+}
+.icon {
+  text-align: center;
+}
+.inputs {
+  text-align: center;
+  margin-top: 2em;
+}
+mat-form-Field {
+  line-height: 2em;
+  letter-spacing: 0.3em;
+  width: 80%;
+}
+mat-card {
+  width: auto;
+  /* background: #000; */
+}
+.wrap {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  padding: 0em 2em 2em 2em;
+}
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 3em 3em 0em 2em;
+}
+button:active {
+  background: #000;
+  color: #fff;
+}
+.ro {
+  background: #000;
+  color: #fff;
+}
+.ro:active {
+  color: #000;
+  background: #f1f1f1;
+}

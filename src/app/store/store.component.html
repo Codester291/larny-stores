@@ -1,0 +1,136 @@
+<body>
+  <div class="nav">
+    <button mat-button [matMenuTriggerFor]="menu">
+      <mat-icon>
+        clear_all
+      </mat-icon>
+    </button>
+    <mat-menu #menu="matMenu">
+      <button mat-menu-item [routerLink]="['/login']" routerLinkActive="router-link-active">Log out</button>
+      <button mat-menu-item>Manage your account</button>
+    </mat-menu>
+
+    <h2>Larny Stores</h2>
+    <mat-icon class="some" matBadge="15" matBadgeColor="warn" matBadgePosition="before">
+      shopping_cart
+    </mat-icon>
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <div class="wrapper">
+
+    <button mat-button [matMenuTriggerFor]="laptopMenu" class="button">
+      Laptop
+    </button>
+    <mat-menu #laptopMenu="matMenu">
+      <button mat-menu-item>Apple</button>
+      <button mat-menu-item>Alienware</button>
+      <button mat-menu-item>Xiaomi</button>
+      <button mat-menu-item>Dell</button>
+    </mat-menu>
+
+
+    <button mat-button [matMenuTriggerFor]="PartsMenu" class="button">
+      Hardware
+    </button>
+    <mat-menu #PartsMenu="matMenu">
+      <button mat-menu-item>Rams</button>
+      <button mat-menu-item>Motherboard</button>
+      <button mat-menu-item>HDD/SDD</button>
+      <button mat-menu-item>Graphics Card</button>
+    </mat-menu>
+
+    <button mat-button [matMenuTriggerFor]="AccMenu" class="button">
+      Accessories
+    </button>
+    <mat-menu #AccMenu="matMenu">
+      <button mat-menu-item>Headsets</button>
+      <mat-divider></mat-divider>
+      <button mat-menu-item>Routers</button>
+      <mat-divider></mat-divider>
+      <button mat-menu-item>Flashdrives</button>
+      <mat-divider></mat-divider>
+      <button mat-menu-item>External HDD</button>
+    </mat-menu>
+
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <div class="row">
+    <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+      <div class="card h-100 animated fadeInLeft">
+        <a href="#"><img class="card-img-top" src="http://via.placeholder.com/300" alt=""></a>
+        <div class="card-body">
+          <h4 class="card-title">
+            <a href="#">Macbook Air</a>
+          </h4>
+          <span class="card-text">&#36;799.00</span>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+      <div class="card h-100 animated fadeInLeft">
+        <a href="#"><img class="card-img-top" src="http://via.placeholder.com/300"></a>
+        <div class="card-body">
+          <h4 class="card-title">
+            <a href="#">Macbook Air</a>
+          </h4>
+          <span class="card-text">&#36;799.00</span>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+      <div class="card h-100 animated fadeInLeft">
+        <a href="#"><img class="card-img-top" src="http://via.placeholder.com/300" alt=""></a>
+        <div class="card-body">
+          <h4 class="card-title">
+            <a href="#">Macbook Air</a>
+          </h4>
+          <span class="card-text">&#36;799.00</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+      <div class="card h-100 animated fadeInLeft">
+        <a href="#"><img class="card-img-top" src="http://via.placeholder.com/300" alt=""></a>
+        <div class="card-body">
+          <h4 class="card-title">
+            <a href="#">Macbook Air</a>
+          </h4>
+          <span class="card-text">&#36;799.00</span>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+      <div class="card h-100 animated fadeInLeft">
+        <a href="#"><img class="card-img-top" src="http://via.placeholder.com/300" alt=""></a>
+        <div class="card-body">
+          <h4 class="card-title">
+            <a href="#">Macbook Air</a>
+          </h4>
+          <span class="card-text">&#36;799.00</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+      <div class="card h-100 animated fadeInLeft">
+        <a href="#"><img class="card-img-top" src="http://via.placeholder.com/300" alt=""></a>
+        <div class="card-body">
+          <h4 class="card-title">
+            <a href="#">Macbook Air</a>
+          </h4>
+          <span class="card-text">&#36;799.00</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- /.row -->
+</body>
